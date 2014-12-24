@@ -1,3 +1,13 @@
+
+<!doctype html public>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>devin bio</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+/*i added opening above her and a closing html tag at the bottom*/
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -31,6 +41,7 @@ img.wexpics {
 
 body {
     overflow-x: hidden;
+    
 }
 
 p {
@@ -475,7 +486,7 @@ footer .footer-below {
 }
 img.rotate90 {
     transition: all .3s ease-in-out;
-    width: 80%;
+    width: 90%;
     
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -485,13 +496,15 @@ img.rotate90 {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+/*
 img.rotate90:hover{width: 90%;
 transition: all .3s ease-in-out;}
+*/
 
 img.first {
     transition: all .3s ease-in-out;
     
-    width: 80%;
+    width: 90%;
     
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -503,12 +516,14 @@ img.first {
     margin-bottom: 10rem;
 }
 
+/*
 img.first:hover {width: 90%;
 transition: all .3s ease-in-out;}
+*/
 
 img.wexpics {
     transition: all .3s ease-in-out;
-     width: 80%;
+     width: 90%;
      margin-top: 5rem;
     margin-bottom: 5rem;}
 
@@ -521,12 +536,32 @@ p.make {margin-top: 5rem;
 
 img.photo {
      transition: all .3s ease-in-out;
-     width: 80%;
-
-}
-
-img.photo:hover {
-     transition: all .3s ease-in-out;
      width: 90%;
 
 }
+
+/*
+img.photo:hover {
+     transition: all .3s ease-in-out;
+     width: 90%;
+*/
+
+}
+
+/*do i need to add a hover for the img.sketch_photo?*/
+
+img.sketch_photo {
+    width: 90%;
+
+}
+
+img.graphic {
+    width: 90%;
+      
+}
+
+img.sculpt {
+    width: 90%;
+}
+
+</html>
